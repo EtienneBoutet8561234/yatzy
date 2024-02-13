@@ -16,7 +16,12 @@ The `index.html` file defines the layout of the game. It includes:
 ![Tic Tac Toe Grid](assets/grid.png)
 
 - A `<div>` with the `result` id to display game status messages.
+
+![Status Message](assets/status-msg.png)
+
 - A `<button>` with the `reset-btn` id to reset the game.
+
+![Reset Button](assets/reset-game-btn.png)
 
 ## CSS Styling
 
@@ -28,6 +33,13 @@ The `style.css` file contains styles for:
 - The `.cell` class that styles each cell in the grid.
 - The `.result` class that displays the game result message.
 - The `.reset-btn` class that styles the reset button.
+
+### Fonts
+
+| Name   | Provider    | Display   | Description            |
+|--------|-------------|-----------|------------------------|
+| h1 | html| ![h1](assets/h1.png) | Primary font use for game title|
+
 
 ### Primary Color
 
