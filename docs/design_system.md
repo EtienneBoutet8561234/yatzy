@@ -4,7 +4,7 @@
 
 This documentation guides you through the implementation of a Tic Tac Toe game using HTML, CSS, and JavaScript. It facilitates a two-player gaming experience where players alternate marking the cells in a 3x3 grid with 'X' or 'O'.
 
-![Tic Tac Toe Game](assets\game.png)
+![Tic Tac Toe Game](assets/game.png)
 
 ## HTML Structure
 
@@ -13,7 +13,7 @@ The `index.html` file defines the layout of the game. It includes:
 - A `<div>` with the `game-container` class that centers the game on the page.
 - A dynamic 3x3 grid representing the game board within a `<div>` with the `board` id.
 
-![Tic Tac Toe Grid](assets\grid.png)
+![Tic Tac Toe Grid](assets/grid.png)
 
 - A `<div>` with the `result` id to display game status messages.
 - A `<button>` with the `reset-btn` id to reset the game.
