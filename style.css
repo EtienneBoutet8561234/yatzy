@@ -46,3 +46,30 @@ body {
 }
 
 
+/* Existing styles... */
+
+/* New styles for positioning the scoreboard */
+.scoreboard-container {
+    position: fixed; /* Use fixed to place it relative to the viewport */
+    top: 20px; /* Spacing from the top */
+    right: 20px; /* Spacing from the right */
+    background-color: #f9f9f9; /* Light background for the scoreboard */
+    padding: 10px; /* Padding around the content */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    text-align: left; /* Align scoreboard text to the left */
+}
+
+.reset-scores-btn {
+    background-color: #f44336; /* Red color for contrast */
+    color: white; /* White text color */
+    padding: 5px 10px; /* Smaller padding for a more compact button */
+    margin-top: 10px; /* Space above the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.reset-scores-btn:hover {
+    background-color: #d32f2f; /* Darker shade on hover for interaction feedback */
+}

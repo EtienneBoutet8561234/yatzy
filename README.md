@@ -11,7 +11,7 @@ Le Tic Tac Toe, est un jeu simple pour deux joueurs, X et O, qui marquent les es
 
 Le jeu commence avec une grille vide.
 
-![Grille Vide](docs/assets/game-init.png)
+![Grille Vide](docs/assets/game-init-php.png)
 
 ### Tour de Jeu
 
@@ -21,13 +21,13 @@ Les joueurs choisissent leur symbole (X ou O). Le joueur avec le symbole X comme
 
 Le joueur X place son symbole dans une case.
 
-![Premier Mouvement](docs/assets/x-plays.png)
+![Premier Mouvement](docs/assets/x-plays-php.png)
 
 #### Réponse du Joueur O
 
 Ensuite, le joueur O place son symbole dans une case vide.
 
-![Réponse du Joueur O](docs/assets/o-plays.png)
+![Réponse du Joueur O](docs/assets/o-plays-php.png)
 
 ### Comment Gagner
 
@@ -35,13 +35,13 @@ Un joueur gagne en étant le premier à aligner trois de ses symboles, soit hori
 
 #### Exemple de Victoire
 
-Voici un exemple où le joueur X gagne la partie.
+Voici un exemple où le joueur X gagne la partie. Noté que le tableau de pointage (leaderboead) est incrémenté de 1 pour le joueur X.
 
-![Victoire de X](docs/assets/x-wins.png)
+![Victoire de X](docs/assets/x-wins-php.png)
 
 ### Match Nul
 
 Si tous les espaces sont remplis et qu'aucun joueur n'a aligné trois symboles, la partie se termine par un match nul.
 
-![Match Nul](docs/assets/tie.png)
+![Match Nul](docs/assets/tie-php.png)
 

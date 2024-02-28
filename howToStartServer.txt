@@ -1,0 +1,5 @@
+to run server with php server on vs code
+
+
+1)ctr+shift+p
+2) click "PHP server : Serve project"
