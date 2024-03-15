@@ -1,5 +1,2 @@
-to run server with php server on vs code
-
-
-1)ctr+shift+p
-2) click "PHP server : Serve project"
+1) navigate to root directory  cd 'tiktactoe3'
+2) start the server with the command './server.sh'
